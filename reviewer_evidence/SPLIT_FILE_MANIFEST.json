@@ -1,0 +1,44 @@
+{
+  "note": "Files larger than 9 MiB were byte-split for GitHub browser upload. Concatenate parts in order to reconstruct the original file.",
+  "files": [
+    {
+      "original_path": "reproducibility/dataset_splits/train.jsonl.gz",
+      "size_bytes": 12223911,
+      "sha256": "448563a68db03ab132c5ae2e993e88156394b4a0aeecf533b07b3fa767c37a87",
+      "parts": [
+        "reproducibility/dataset_splits/train.jsonl.gz.part001",
+        "reproducibility/dataset_splits/train.jsonl.gz.part002"
+      ]
+    },
+    {
+      "original_path": "reproducibility/dataset_splits/train_manifest.jsonl.gz",
+      "size_bytes": 24721954,
+      "sha256": "af7d963d4d5ba09e6a988b7d515291178d1cfb3ed525c3c4e087e45e01becb92",
+      "parts": [
+        "reproducibility/dataset_splits/train_manifest.jsonl.gz.part001",
+        "reproducibility/dataset_splits/train_manifest.jsonl.gz.part002",
+        "reproducibility/dataset_splits/train_manifest.jsonl.gz.part003"
+      ]
+    },
+    {
+      "original_path": "results/full_gallery/baseline/retrieval_top10_and_ranks.pt",
+      "size_bytes": 18414253,
+      "sha256": "26ae4cf2514072b98b357a8513777de657fab40565afae401552c97222139438",
+      "parts": [
+        "results/full_gallery/baseline/retrieval_top10_and_ranks.pt.part001",
+        "results/full_gallery/baseline/retrieval_top10_and_ranks.pt.part002",
+        "results/full_gallery/baseline/retrieval_top10_and_ranks.pt.part003"
+      ]
+    },
+    {
+      "original_path": "results/full_gallery/ft50k/retrieval_top10_and_ranks.pt",
+      "size_bytes": 18414253,
+      "sha256": "78dfe6c997dab47edce5bd68fa045318cf98158d355b250cc77996950187759a",
+      "parts": [
+        "results/full_gallery/ft50k/retrieval_top10_and_ranks.pt.part001",
+        "results/full_gallery/ft50k/retrieval_top10_and_ranks.pt.part002",
+        "results/full_gallery/ft50k/retrieval_top10_and_ranks.pt.part003"
+      ]
+    }
+  ]
+}
