@@ -1,0 +1,12 @@
+{
+  "variant": "ft50k_full_test",
+  "checkpoint": "/workspace/SonoGKD_US365K/outputs_archive/biomedclip_50k_lr1e5/best_model.pt",
+  "manifest": "/workspace/SonoGKD_US365K/data/03_manifests/test_manifest.jsonl",
+  "usable_pairs": 71918,
+  "bad_images": 1,
+  "batch_size": 256,
+  "num_workers": 16,
+  "retrieval_chunk": 4096,
+  "limit": 0,
+  "gpu": "NVIDIA A100-SXM4-80GB"
+}
