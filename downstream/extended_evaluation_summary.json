@@ -1,0 +1,82 @@
+[
+  {
+    "variant": "baseline",
+    "task": "body_system",
+    "mode": "zero_shot",
+    "accuracy": 0.47583717665931424,
+    "macro_f1": 0.3640956585930746,
+    "weighted_f1": 0.4799156515102084,
+    "num_classes": 9,
+    "num_test_samples": 4987
+  },
+  {
+    "variant": "baseline",
+    "task": "body_system",
+    "mode": "linear_probe",
+    "accuracy": 0.6011630238620413,
+    "macro_f1": 0.5569664760801134,
+    "weighted_f1": 0.6061735306001079,
+    "num_classes": 9,
+    "num_test_samples": 4987
+  },
+  {
+    "variant": "baseline",
+    "task": "organ",
+    "mode": "zero_shot",
+    "accuracy": 0.43215664644236074,
+    "macro_f1": 0.3937516251502373,
+    "weighted_f1": 0.4273935280277242,
+    "num_classes": 20,
+    "num_test_samples": 3626
+  },
+  {
+    "variant": "baseline",
+    "task": "organ",
+    "mode": "linear_probe",
+    "accuracy": 0.5292333149476006,
+    "macro_f1": 0.48896913544188936,
+    "weighted_f1": 0.5289504162483045,
+    "num_classes": 20,
+    "num_test_samples": 3626
+  },
+  {
+    "variant": "ft50k",
+    "task": "body_system",
+    "mode": "zero_shot",
+    "accuracy": 0.5013033888109084,
+    "macro_f1": 0.39136135188990084,
+    "weighted_f1": 0.5103540294615367,
+    "num_classes": 9,
+    "num_test_samples": 4987
+  },
+  {
+    "variant": "ft50k",
+    "task": "body_system",
+    "mode": "linear_probe",
+    "accuracy": 0.6332464407459394,
+    "macro_f1": 0.5885598181810798,
+    "weighted_f1": 0.6374707139931509,
+    "num_classes": 9,
+    "num_test_samples": 4987
+  },
+  {
+    "variant": "ft50k",
+    "task": "organ",
+    "mode": "zero_shot",
+    "accuracy": 0.4859349145063431,
+    "macro_f1": 0.45364733597446893,
+    "weighted_f1": 0.48373911213568493,
+    "num_classes": 20,
+    "num_test_samples": 3626
+  },
+  {
+    "variant": "ft50k",
+    "task": "organ",
+    "mode": "linear_probe",
+    "accuracy": 0.5455046883618312,
+    "macro_f1": 0.510309248901866,
+    "weighted_f1": 0.5475885338274826,
+    "num_classes": 20,
+    "num_test_samples": 3626
+  }
+]
