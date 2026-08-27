@@ -1,0 +1,27 @@
+BioMedCLIP projection-related trainable-parameter audit
+Date: 2026-08-21
+
+Selection rule documented in manuscript:
+  trainable if parameter name contains "proj" or "projection", plus logit_scale.
+
+Checkpoint-verified FT50k trainable decomposition:
+  visual.trunk.patch_embed.proj.weight + bias          =   590,592 params (2 tensors)
+  visual.trunk.blocks.[0-11].attn.proj.weight + bias  = 7,087,104 params (24 tensors)
+  visual.head.proj.weight                              =   393,216 params (1 tensor)
+  text.proj.0.weight                                   =   491,520 params (1 tensor)
+  text.proj.2.weight                                   =   327,680 params (1 tensor)
+  logit_scale                                          =         1 param  (1 tensor)
+                                                         ----------------
+  TOTAL                                                = 8,890,113 params (30 tensors)
+
+Full model parameters: 195,902,721
+Trainable ratio: 4.5380%
+
+FT50k best checkpoint:
+  file: best_model.pt
+  epoch: 2
+  SHA256: 3b7cb059523804c75cbbfc5a3ca16ad43c7910ea4f66c348f7968a64c6e1799f
+
+Interpretation:
+The method is "projection-related tuning". It is NOT final-projection-head-only tuning,
+because trainable projection components are distributed inside the visual pathway.

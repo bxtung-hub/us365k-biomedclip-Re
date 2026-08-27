@@ -1,0 +1,4 @@
+  218402 /workspace/SonoGKD_US365K/data/00_download/US-365K/train.jsonl
+   74044 /workspace/SonoGKD_US365K/data/00_download/US-365K/valid.jsonl
+   71919 /workspace/SonoGKD_US365K/data/00_download/US-365K/test.jsonl
+  364365 total

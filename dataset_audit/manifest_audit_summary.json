@@ -1,0 +1,56 @@
+{
+  "full_data_records": 364365,
+  "full_data_unique_media_names": 364365,
+  "duplicate_media_name_groups": 0,
+  "extracted_images": 364365,
+  "splits": {
+    "train": {
+      "input_records": 218402,
+      "manifest_records": 218402,
+      "unique_images": 218402,
+      "unique_cases": 7005,
+      "missing_metadata": 0,
+      "ambiguous_metadata": 0,
+      "missing_images": 0,
+      "match_modes": {
+        "exact": 218402
+      }
+    },
+    "valid": {
+      "input_records": 74044,
+      "manifest_records": 74044,
+      "unique_images": 74044,
+      "unique_cases": 2336,
+      "missing_metadata": 0,
+      "ambiguous_metadata": 0,
+      "missing_images": 0,
+      "match_modes": {
+        "exact": 74044
+      }
+    },
+    "test": {
+      "input_records": 71919,
+      "manifest_records": 71919,
+      "unique_images": 71919,
+      "unique_cases": 2335,
+      "missing_metadata": 0,
+      "ambiguous_metadata": 0,
+      "missing_images": 0,
+      "match_modes": {
+        "exact": 71919
+      }
+    }
+  },
+  "total_manifest_records": 364365,
+  "case_overlap": {
+    "train_vs_valid": 0,
+    "train_vs_test": 0,
+    "valid_vs_test": 0
+  },
+  "image_overlap": {
+    "train_vs_valid": 0,
+    "train_vs_test": 0,
+    "valid_vs_test": 0
+  },
+  "total_errors": 0
+}
